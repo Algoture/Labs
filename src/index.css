@@ -118,11 +118,11 @@
     @apply bg-background text-foreground;
   }
 }
-body {
+.glassbg {
   background-image: url("BackGround.png");
   background-size: cover;
 }
-@utility glass{
+@utility glass {
   @apply border border-white/20 bg-white/10 shadow-xs backdrop-blur-md;
 }
 input::placeholder {
@@ -134,7 +134,7 @@ input::placeholder {
 .bo {
   border: 1.5px solid red;
 }
-.cen{
+.cen {
   display: flex;
   align-items: center;
   justify-content: center;
