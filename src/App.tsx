@@ -1,12 +1,9 @@
-import Glass from "./components/custom/Glass";
+import Sidebar from "./components/custom/Sidebar";
 
 function App() {
   return (
-    <div className="glassbg">
-      <div className="">
-        <Glass />
-      </div>
-      <div></div>
+    <div className="min-h-screen">
+      <Sidebar />
     </div>
   );
 }
